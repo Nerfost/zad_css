@@ -1,0 +1,66 @@
+<HTML>
+<head>
+
+</head>
+<body>
+
+<h1 style="color: black; background-color: white    font-weight: 1000;">
+Sposoby podłączania styli do strony (skrócone zestawienie).
+1)Zewnętrzny arkusz stylów.
+<table border="1">
+   <tr>
+      <td colspan=2>head
+link rel="Stylesheet" type="text/css" href="style.css" /
+</head></td>
+   </tr>
+</table>
+2)Styl lokalny inaczej: (styl wpisany, liniowy, linijkowy, w linii) czyli 
+dopisanie arkusza do wybranego bloku treści strony.
+<table border="1">
+   <tr>
+      <td colspan=2>selektor style="cecha1: wartość1; cecha2: wartość2...">.../selektor
+</head></td>
+   </tr>
+</table>
+3)Wewnętrzny arkusz stylów.
+<table border="1">
+   <tr>
+      <td colspan=2>head
+ style type="text/css"
+ selektor1 { cecha: wartość; cecha2: wartość2... }
+ selektor2 { cecha: wartość; cecha2: wartość2... }
+ </style>
+</head>
+</head></td>
+   </tr>
+</table>
+4)Alternatywny arkusz stylów.
+<table border="1">
+   <tr>
+      <td colspan=2><head>
+link rel="Stylesheet" type="text/css" href="style.css" title="Nazwa domyślna" /
+link rel="Alternate stylesheet" type="text/css" href="style1.css" title="Nazwa 1" /
+link rel="Alternate stylesheet" type="text/css" href="style2.css" title="Nazwa 2" /
+</head>
+
+</head>
+</head></td>
+   </tr>
+</table>
+5)Import arkusza stylów.
+<table border="1">
+   <tr>
+      <td colspan=2><head>
+style type="text/css"
+ @import url(adres zewnętrznego arkusza stylów);
+/style
+
+</head>
+
+</head>
+</head></td>
+   </tr>
+</table>
+</h1>
+<br>
+</body>
