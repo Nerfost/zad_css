@@ -1,0 +1,17 @@
+div {
+    width: 628px;
+    background-color: green;
+    font-size: 20mm;
+}
+
+#blok_pustovoit_1:hover {
+    background-color: blue;
+}
+
+#blok_pustovoit_2:hover {
+    background-color: orange;
+}
+
+#blok_pustovoit_3:hover {
+    background-color: red;
+}
