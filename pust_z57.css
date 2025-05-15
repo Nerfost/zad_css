@@ -1,0 +1,14 @@
+* {
+ font-size: 36pt;
+ background-color: red;   
+}
+
+p.klasa_nieuniwersalna_pustovoit {
+    font-size: 34pt;
+    color: purple;
+}
+
+.klasa_nieuniwersalna_pustovoit {
+    font-size: 21pt;
+    color: green;
+}
